@@ -10,13 +10,14 @@
   justify-content: flex-end;
 
   /* temp */
-  color: white;
+  color: var(--clr-true-light);
 }
 
 .hero__title {
   font-family: var(--ff-Roboto);
-  font-size: 3.5rem; /* this is the minimum. i think */ 
+  font-size: min(4.5rem + 3vw, 10rem);
   margin-bottom: 1rem;
+  margin-left: 3rem;
 }
 
 .hero__cards {
@@ -25,7 +26,7 @@
 }
 
 .hero__card {
-  padding: 1rem;
+  padding: 2rem;
   background-color: var(--clr-true-dark);
 }
 
@@ -39,6 +40,7 @@
 
 .hero__card__title {
   font-family: var(--ff-Baloo2);
+  font-size: 1.75rem;
 }
 
 .hero__card ul {
@@ -49,7 +51,23 @@
 .hero__card__item {
   padding-left: 1rem;
   font-family: var(--ff-OpenSans);
-  font-size: 1.2rem;
+  font-size: calc(1.65rem);
   line-height: 2;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+}
+
+@media screen and (min-width: 650px) {
+  .hero__cards {
+    flex-direction: row;
+  }
+
+  .hero__card {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .hero__cards {
+    justify-content: flex-end;
+  }
 }
