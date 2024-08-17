@@ -1,0 +1,55 @@
+.hero {
+  min-height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.835);
+  background-image: url(../../images/building.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  /* temp */
+  color: white;
+}
+
+.hero__title {
+  font-family: var(--ff-Roboto);
+  font-size: 3.5rem; /* this is the minimum. i think */ 
+  margin-bottom: 1rem;
+}
+
+.hero__cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__card {
+  padding: 1rem;
+  background-color: var(--clr-true-dark);
+}
+
+.hero__card--accent {
+  background-color: var(--clr-accent);
+}
+
+.hero__card--accent .hero__card__title {
+  color: var(--clr-true-dark);
+}
+
+.hero__card__title {
+  font-family: var(--ff-Baloo2);
+}
+
+.hero__card ul {
+  padding: 1rem;
+  list-style: "✓";
+}
+
+.hero__card__item {
+  padding-left: 1rem;
+  font-family: var(--ff-OpenSans);
+  font-size: 1.2rem;
+  line-height: 2;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+}

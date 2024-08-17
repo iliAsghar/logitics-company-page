@@ -1,0 +1,11 @@
+@import url('./utils/reset.css');
+@import url('./utils/colors.css');
+@import url('./utils/fonts.css');
+
+/* hero section 
+***************************** */
+@import url('./sections/hero.css');
+
+.container {
+  margin: 3rem;
+}
