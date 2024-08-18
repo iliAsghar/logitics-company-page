@@ -1,0 +1,55 @@
+.about {
+  background-color: var(--clr-primary-light);
+}
+
+.about__title {
+  font-family: var(--ff-Montserrat);
+  font-size: min(2.4rem + 3vw, 10rem);
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.about__info {
+  font-family: var(--ff-OpenSans);
+  color: var(--clr-gray);
+  font-size: 1.7rem;
+}
+
+.about__extender {
+  width: 100%;
+  height: 8rem;
+}
+
+.about__card {
+  width: 100%;
+  background-color: var(--clr-true-light);
+  text-align: center;
+  padding: 9rem 2rem 7rem;
+  position: relative;
+}
+
+.about__card__icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -5rem);
+  font-size: 6.5rem;
+  background-color: var(--clr-accent);
+  width: 13rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--clr-true-light);
+}
+
+.about__card__title {
+  font-family: var(--ff-Montserrat);
+  font-size: 3rem;
+}
+
+.about__card__info {
+  font-family: var(--ff-OpenSans);
+  font-size: 1.6rem;
+  color: var(--clr-gray);
+}

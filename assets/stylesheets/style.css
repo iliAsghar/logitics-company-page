@@ -6,6 +6,10 @@
 ***************************** */
 @import url('./sections/hero.css');
 
+/* about section
+***************************** */
+@import url('./sections/about.css');
+
 .container {
-  margin: 3rem;
+  padding: 5rem 4rem;
 }

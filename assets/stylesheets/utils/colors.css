@@ -4,4 +4,5 @@
   --clr-primary-light: hsl(0, 0%, 95%);
   --clr-true-dark: hsl(0, 0%, 0%);
   --clr-true-light: hsl(0, 0%, 100%);
+  --clr-gray: hsl(0, 0%, 60%);
 }
