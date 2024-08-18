@@ -4,20 +4,27 @@
 
 .about__title {
   font-family: var(--ff-Montserrat);
-  font-size: min(2.4rem + 3vw, 10rem);
+  font-size: min(2.2rem + 3vw, 10rem);
   line-height: 1.1;
   margin-bottom: 3rem;
+  max-width: 840px;
 }
 
 .about__info {
   font-family: var(--ff-OpenSans);
   color: var(--clr-gray);
   font-size: 1.7rem;
+  max-width: 850px;
 }
 
 .about__extender {
   width: 100%;
   height: 8rem;
+}
+
+.about__cards {
+  display: flex;
+  flex-direction: column;
 }
 
 .about__card {
@@ -52,4 +59,13 @@
   font-family: var(--ff-OpenSans);
   font-size: 1.6rem;
   color: var(--clr-gray);
+}
+
+@media screen and (min-width: 800px) {
+  .about__cards {
+    flex-direction: row;
+  }
+  .about__card {
+    padding-bottom: 3rem;
+  }
 }
