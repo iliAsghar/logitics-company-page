@@ -11,6 +11,10 @@
   color: var(--clr-true-light);
 }
 
+.hero > .container {
+  margin: 0;
+}
+
 .hero__title {
   font-family: var(--ff-Roboto);
   font-size: min(4.5rem + 3vw, 10rem);
