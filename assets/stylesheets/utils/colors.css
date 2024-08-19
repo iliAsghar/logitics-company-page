@@ -1,5 +1,6 @@
 :root {
   --clr-accent: hsl(151, 69%, 62%);
+  --clr-accent-light: hsl(151, 71%, 84%);
   --clr-primary-dark: hsl(0, 0%, 10%);
   --clr-primary-light: hsl(0, 0%, 95%);
   --clr-true-dark: hsl(0, 0%, 0%);
