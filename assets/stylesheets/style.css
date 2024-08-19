@@ -10,6 +10,17 @@
 ***************************** */
 @import url('./sections/about.css');
 
+/* services section
+***************************** */
+@import url('./sections/services.css');
+
 .container {
   padding: 5rem 4rem;
+  max-width: 120rem;
+  margin-inline: auto;
+}
+
+.list-nostyle {
+  list-style: none;
+  padding: 0;
 }
