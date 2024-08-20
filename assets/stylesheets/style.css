@@ -22,6 +22,10 @@
 ***************************** */
 @import url('./sections/strategies.css');
 
+/* clients section
+***************************** */
+@import url('./sections/clients.css');
+
 .container {
   padding: 5rem 4rem;
   max-width: 120rem;
