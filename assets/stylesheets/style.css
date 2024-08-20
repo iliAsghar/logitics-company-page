@@ -18,6 +18,10 @@
 ***************************** */
 @import url('./sections/info.css');
 
+/* strategies section
+***************************** */
+@import url('./sections/strategies.css');
+
 .container {
   padding: 5rem 4rem;
   max-width: 120rem;
