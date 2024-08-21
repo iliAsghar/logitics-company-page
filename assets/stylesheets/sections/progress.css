@@ -1,0 +1,41 @@
+.progress {
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-true-light);
+  padding-bottom: 30rem;
+}
+
+.progress__title {
+  font-family: var(--ff-Montserrat);
+  font-size: min(5vw + 1.5rem, 6rem);
+  margin-bottom: 5rem;
+  line-height: 1.1;
+}
+
+.progress__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.progress__card {
+  font-family: var(--ff-OpenSans);
+  font-size: 1.55rem;
+}
+
+.progress__card__icon {
+  background-color: var(--clr-accent);
+  font-size: 4rem;
+  width: 7rem;
+  aspect-ratio: 1;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+  color: var(--clr-true-dark);
+}
+
+@media screen and (min-width: 900px) {
+  .progress__cards {
+    flex-direction: row;
+  }
+}

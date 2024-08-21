@@ -30,6 +30,10 @@
 ***************************** */
 @import url('./sections/marketing.css');
 
+/* progress section
+***************************** */
+@import url('./sections/progress.css');
+
 .container {
   padding: 5rem 4rem;
   max-width: 120rem;
