@@ -34,6 +34,10 @@
 ***************************** */
 @import url('./sections/progress.css');
 
+/* people section
+***************************** */
+@import url('./sections/people.css');
+
 .container {
   padding: 5rem 4rem;
   max-width: 120rem;
