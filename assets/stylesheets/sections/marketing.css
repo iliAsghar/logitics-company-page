@@ -48,7 +48,6 @@
 
 .marketing__image {
   filter: grayscale(1) contrast(1.2);
-  margin-bottom: 3rem;
   object-fit: contain;
   width: 100%;
   max-width: 420px;

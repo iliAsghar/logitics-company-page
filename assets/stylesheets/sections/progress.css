@@ -1,7 +1,6 @@
 .progress {
   background-color: var(--clr-primary-dark);
   color: var(--clr-true-light);
-  padding-bottom: 30rem;
 }
 
 .progress__title {
